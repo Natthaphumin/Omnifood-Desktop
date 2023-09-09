@@ -40,6 +40,10 @@ Default: 1
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
@@ -49,11 +53,15 @@ body {
 
 .test {
   background-color: red;
-  padding: 100px;
   /* width: 1000px; */
   /* max-width: 1000px; */
 
   max-width: 50rem;
+  padding: 4rem;
+  /* 4rem = 64px */
+  color: #fff;
+  font-size: 2rem;
+  /* rem to px  16px ขึ้นอยู่ ขนาดของ font-size ใน tag html เช่น font-size: 10px   1rem = 10px*/
   /* 1 rem = 16px */
   /* 500 rem = 800px */
 }
